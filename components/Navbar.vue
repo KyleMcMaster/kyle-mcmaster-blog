@@ -15,6 +15,12 @@ const { navigation } = useContent()
       >
         {{ link.navTitle || link.title }}
       </NuxtLink>
+      <nuxt-link
+        :to="'https://blog.nimblepros.com'"
+        active-class="font-bold"
+        class="mr-4">
+        NimblePros
+      </nuxt-link>
     </div>
     <!-- Social icons & Color Mode -->
     <div class="space-x-3 text-gray-500 transition">

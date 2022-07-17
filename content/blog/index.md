@@ -1,5 +1,5 @@
 ---
-head.title: 'Home'
+head.title: 'Blog'
 navigation: false
 ---
 
