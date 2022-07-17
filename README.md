@@ -11,5 +11,5 @@ npm install
 run for development
 
 ```bash
-nuxi dev
+npm run dev
 ```

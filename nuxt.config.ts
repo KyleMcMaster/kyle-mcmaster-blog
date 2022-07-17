@@ -24,5 +24,8 @@ export default defineNuxtConfig({
   components: [{
     path: '~/components',
     global: true
-  }]
+  }],
+  // nitro: {
+  //   preset: 'azure_functions'
+  // }
 })
