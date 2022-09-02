@@ -1,5 +1,6 @@
 <template>
-  <ContentList v-slot="{ list }" path="/blog"><a ></a>
+  <ContentList v-slot="{ list }" path="/blog">
+    <a />
     <div v-for="blog in list" :key="blog._path">
       <img :src="blog.image">
       <NuxtLink
