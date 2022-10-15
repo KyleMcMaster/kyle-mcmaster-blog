@@ -15,4 +15,8 @@
     @apply border-b border-neutral-600 dark:border-neutral-300;
   }
 }
+code {
+  text-align: left;
+  text-indent: 2rem;
+}
 </style>
