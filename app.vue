@@ -8,6 +8,16 @@
   </div>
 </template>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7L339H9YR9"></script>
+
+<!-- Google tag (gtag.js) -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7L339H9YR9');
+</script>
 <style lang="postcss">
 body {
   @apply bg-gray-50 dark:bg-gray-900;
