@@ -1,6 +1,8 @@
 ---
-head.title: 'Blog'
+title: 'Blog'
 navigation: false
 ---
+
+# Blogs
 
 ::blog-list
