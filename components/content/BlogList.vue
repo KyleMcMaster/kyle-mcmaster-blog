@@ -3,7 +3,7 @@
     <div v-for="blog in list.filter(removeIndexFromList).reverse()" :key="blog._path">
       <div class="rounded overflow-hidden shadow-xl">
         <NuxtLink :to="blog._path" active-class="font-bold" class="">
-          <h2>{{ blog.navTitle || blog.title }}</h2>
+          <!-- <h2>{{ blog.navTitle || blog.title }}</h2> -->
           <img :src="blog.image">
         </NuxtLink>
         <p>{{ getFormattedDate(parseDateString(blog.date)) }}</p>
