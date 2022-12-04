@@ -11,7 +11,7 @@ const { navigation } = useContent()
         :key="link._path"
         :to="link._path"
         active-class="font-bold"
-        class="mr-4"
+        class="mr-6"
       >
         {{ link.navTitle || link.title }}
       </NuxtLink>
