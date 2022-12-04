@@ -32,4 +32,5 @@ export default defineNuxtConfig({
   // nitro: {
   //   preset: 'azure_functions'
   // }
+  // importScripts: ['https://www.googletagmanager.com/gtag/js?id=G-7L339H9YR9']
 })

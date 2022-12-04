@@ -7406,6 +7406,11 @@
     "lodash" "^4.17.21"
     "semver" "^7.3.5"
 
+"vue-gtag-next@^1.14.0":
+  "integrity" "sha512-iJl+cOG2GU5NuxqzSSIpt03WVOvZqyKB9TOy7d55KiuvRklcnb2nlqxW5B/a3/sbIt7fla+XEkRyMCcoz0zAHw=="
+  "resolved" "https://registry.npmjs.org/vue-gtag-next/-/vue-gtag-next-1.14.0.tgz"
+  "version" "1.14.0"
+
 "vue-router@^4.0.16":
   "integrity" "sha512-Wp1mEf2xCwT0ez7o9JvgpfBp9JGnVb+dPERzXDbugTatzJAJ60VWOhJKifQty85k+jOreoFHER4r5fu062PhPw=="
   "resolved" "https://registry.npmjs.org/vue-router/-/vue-router-4.1.1.tgz"
@@ -7413,7 +7418,7 @@
   dependencies:
     "@vue/devtools-api" "^6.1.4"
 
-"vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.37", "vue@>=3", "vue@3.2.37", "vue@3.x":
+"vue@^3.0.0-rc.11", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.37", "vue@>=3", "vue@3.2.37", "vue@3.x":
   "integrity" "sha512-bOKEZxrm8Eh+fveCqS1/NkG/n6aMidsI6hahas7pa0w/l7jkbssJVsRhVDs07IdDq7h9KHswZOgItnwJAgtVtQ=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.37.tgz"
   "version" "3.2.37"
