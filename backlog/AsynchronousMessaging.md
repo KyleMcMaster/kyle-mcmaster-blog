@@ -23,7 +23,7 @@ flowchart TB
     id6d(Chain of Responsibility in NServiceBus)
     id6e(Send Only Endpoints with ASP.NET Core)
     id7a(Saga Pattern in NServiceBus)
-    id7b(Saga Timeouts and Termination in NServiceBus)
+    id7b(Saga Timeouts and Termination)
     id8a(Unit Testing NServiceBus Handlers)
     id9a(Monitoring with ServicePulse)
 
@@ -74,7 +74,7 @@ flowchart TB
 * * 6e - Send Only Endpoints with ASP.NET Core
 * Sagas
 * * 7a - Saga Pattern in NServiceBus
-* * 7b - Saga Timeouts and Termination in NServiceBus
+* * 7b - Saga Timeouts and Termination
 * Testing
 * * 8a Unit Testing NServiceBus Handlers
 * Additional Topics
