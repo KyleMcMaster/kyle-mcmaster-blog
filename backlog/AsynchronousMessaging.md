@@ -23,18 +23,24 @@ flowchart TB
     id6d(Chain of Responsibility in NServiceBus)
     id6e(Send Only Endpoints with ASP.NET Core)
     id7a(Saga Pattern in NServiceBus)
-    id7b(Saga Timeouts and Termination)
+    id7b(Creating your first Saga and Persisting Saga Data)
+    id7c(Saga Timeouts and Termination)
     id8a(Unit Testing NServiceBus Handlers)
     id9a(Monitoring with ServicePulse)
 
     id1 --> id2
     id2 --> id3
     id3 --> id4
-    id4 --> id5a
-    id4 --> id9a
-    subgraph Additional Topics
-    id9a
+    id4 --> id7a
+    subgraph Sagas
+    id7a --> id7b
+    id7b --> id7c
     end
+    id4 --> id8a
+    subgraph Testing
+    id8a
+    end
+    id4 --> id5a
     subgraph Transports
     id5a --> id5b
     id5b --> id5c
@@ -47,15 +53,13 @@ flowchart TB
     id6c --> id6d
     id6d --> id6e
     end
-    id4 --> id7a
-    subgraph Sagas
-    id7a --> id7b
-    end
-    id4 --> id8a
-    subgraph Testing
-    id8a
+    id4 --> id9a
+    subgraph Additional Topics
+    id9a
     end
 ```
+
+## Series Outline
 
 * 1 Asynchronous Messaging Basics (optional series introduction)
 * 2 Introduction to NServiceBus 
@@ -74,8 +78,15 @@ flowchart TB
 * * 6e - Send Only Endpoints with ASP.NET Core
 * Sagas
 * * 7a - Saga Pattern in NServiceBus
-* * 7b - Saga Timeouts and Termination
+* * 7b - Creating your first Saga and Persisting Saga Data
+* * 7c - Saga Timeouts and Termination
 * Testing
 * * 8a Unit Testing NServiceBus Handlers
 * Additional Topics
 * * 9a - Monitoring with ServicePulse
+
+## Notes
+
+I'm open to feedback, revisions, and other topics as needed. The goal is to have a series that demonstrates our competency in NServiceBus to potential clients as well as being a definitive guide for developers looking to get started with NServiceBus and support them as they advance through common patterns and gotchas. Similar to this series by Andrew Lock on Kubernetes for .NET. https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-1-an-introduction-to-kubernetes/
+
+Also, I couldn't get the mermaid diagram to order the subgraphs in a friendly manner but that is meant for my planning more than actual publishing in its current state.
