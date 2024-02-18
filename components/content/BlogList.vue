@@ -19,7 +19,6 @@ function removeIndexFromList (blog: any): boolean {
   return blog.title !== 'Blog'
 }
 function parseDateString (str: string): number {
-  // console.log(str);
   return Date.parse(str)
 }
 function getFormattedDate (date: number): string {
@@ -31,9 +30,3 @@ function getFormattedDate (date: number): string {
   return `${month.toString()}/${day.toString()}/${year.toString()}`
 }
 </script>
-
-<!-- <style scoped>
-.description p {
-  text-decoration: none;
-}
-</style> -->
