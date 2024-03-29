@@ -25,7 +25,7 @@ function getFormattedDate (date: number): string {
   const blogDate = new Date(date)
   const month = blogDate.getMonth() + 1
   const year = blogDate.getFullYear()
-  const day = blogDate.getDate() + 1
+  const day = blogDate.getDate() === 31 ? 31 : (blogDate.getDate() + 1)
 
   return `${month.toString()}/${day.toString()}/${year.toString()}`
 }
