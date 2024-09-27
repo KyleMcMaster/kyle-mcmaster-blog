@@ -11,5 +11,8 @@
     "@nuxt/image": "1.8.0",
     "content-wind": "1.1.2",
     "nuxt": "3.13.0"
+  },
+  "dependencies": {
+    "vue-gtag-next": "1.14.0"
   }
 }
