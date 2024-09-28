@@ -1,5 +1,5 @@
 {
-  "name": "content-wind-template",
+  "name": "kyle-mcmaster-blog",
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
