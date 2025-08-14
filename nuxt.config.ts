@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/image', '@nuxtjs/sitemap', '@nuxtjs/robots'],
 
   site: {
-    url: 'https://kyle-mcmaster-blog.vercel.app',
+    url: 'https://kylemcmaster.com',
     name: 'Kyle McMaster Blog',
     description: 'Software development insights, tutorials, and experiences by Kyle McMaster. Specializing in C#, .NET, event-driven architecture, and modern software engineering practices.',
     defaultLocale: 'en'
@@ -27,23 +27,23 @@ export default defineNuxtConfig({
         { property: 'og:type', content: 'website' },
         { property: 'og:title', content: 'Kyle McMaster Blog - Software Development & Engineering Insights' },
         { property: 'og:description', content: 'Software development insights, tutorials, and experiences by Kyle McMaster. Specializing in C#, .NET, event-driven architecture, and modern software engineering practices.' },
-        { property: 'og:url', content: 'https://kyle-mcmaster-blog.vercel.app' },
-        { property: 'og:image', content: 'https://kyle-mcmaster-blog.vercel.app/cover.jpg' },
+        { property: 'og:url', content: 'https://kylemcmaster.com' },
+        { property: 'og:image', content: 'https://kylemcmaster.com/cover.jpg' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:creator', content: '@KyleMcMaster' },
         { name: 'twitter:title', content: 'Kyle McMaster Blog - Software Development & Engineering Insights' },
         { name: 'twitter:description', content: 'Software development insights, tutorials, and experiences by Kyle McMaster. Specializing in C#, .NET, event-driven architecture, and modern software engineering practices.' },
-        { name: 'twitter:image', content: 'https://kyle-mcmaster-blog.vercel.app/cover.jpg' }
+        { name: 'twitter:image', content: 'https://kylemcmaster.com/cover.jpg' }
       ],
       link: [
-        { rel: 'canonical', href: 'https://kyle-mcmaster-blog.vercel.app' }
+        { rel: 'canonical', href: 'https://kylemcmaster.com' }
       ]
     }
   },
 
   sitemap: {
     enabled: true,
-    hostname: 'https://kyle-mcmaster-blog.vercel.app'
+    hostname: 'https://kylemcmaster.com'
   },
 
   robots: {
@@ -51,7 +51,7 @@ export default defineNuxtConfig({
     rules: {
       UserAgent: '*',
       Allow: '/',
-      Sitemap: 'https://kyle-mcmaster-blog.vercel.app/sitemap.xml'
+      Sitemap: 'https://kylemcmaster.com/sitemap.xml'
     }
   }
 })
