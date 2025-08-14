@@ -26,14 +26,14 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const structuredData = computed(() => {
-  const baseUrl = 'https://kyle-mcmaster-blog.vercel.app'
+  const baseUrl = 'https://kylemcmaster.com'
   
   if (props.type === 'Person') {
     return {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Kyle McMaster",
-      "jobTitle": "Software Developer & Consultant",
+      "jobTitle": "Software Developer, Architect, & Consultant",
       "worksFor": {
         "@type": "Organization",
         "name": "NimblePros"
@@ -41,7 +41,8 @@ const structuredData = computed(() => {
       "url": baseUrl,
       "sameAs": [
         "https://github.com/KyleMcMaster",
-        "https://twitter.com/KyleMcMaster"
+        "https://twitter.com/KyleMcMaster",
+        "https://bsky.app/profile/kylemcmaster.com"
       ],
       "knowsAbout": [
         "Software Development",
