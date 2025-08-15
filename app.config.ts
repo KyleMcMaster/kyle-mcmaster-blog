@@ -4,7 +4,7 @@ export default defineAppConfig({
   socials: {
     twitter: 'KyleMcMaster',
     github: 'KyleMcMaster',
-    mastodon: '@atinux@webtoo.ls'
+    mastodon: '@kylemcmaster@fosstodon.org'
   },
   
   // SEO and site information
