@@ -41,7 +41,6 @@ export default defineNuxtConfig({
     defaultLocale: 'en'
   },
 
-
   sitemap: {
     enabled: true,
     hostname: 'https://kylemcmaster.com'
