@@ -6,14 +6,7 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2024-09-02',
-  modules: ['@nuxt/image', '@nuxtjs/sitemap', '@nuxtjs/robots'],
-
-  site: {
-    url: 'https://kylemcmaster.com',
-    name: 'Kyle McMaster Blog',
-    description: 'Software development insights, tutorials, and experiences by Kyle McMaster. Specializing in C#, .NET, event-driven architecture, and modern software engineering practices.',
-    defaultLocale: 'en'
-  },
+  modules: ['@nuxt/image', '@nuxtjs/seo'],
 
   app: {
     head: {
@@ -40,6 +33,14 @@ export default defineNuxtConfig({
       ]
     }
   },
+
+  site: {
+    url: 'https://kylemcmaster.com',
+    name: 'Kyle McMaster Blog',
+    description: 'Software development insights, tutorials, and experiences by Kyle McMaster. Specializing in C#, .NET, event-driven architecture, and modern software engineering practices.',
+    defaultLocale: 'en'
+  },
+
 
   sitemap: {
     enabled: true,
