@@ -41,11 +41,6 @@ export default defineNuxtConfig({
     }
   },
 
-  sitemap: {
-    enabled: true,
-    hostname: 'https://kylemcmaster.com'
-  },
-
   robots: {
     enabled: true,
     rules: {
