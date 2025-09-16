@@ -10,7 +10,7 @@
   "devDependencies": {
     "@nuxt/image": "1.8.0",
     "content-wind": "1.1.2",
-    "nuxt": "3.14.0"
+    "nuxt": "3.14.1592"
   },
   "dependencies": {
     "@nuxtjs/robots": "5.4.0",
