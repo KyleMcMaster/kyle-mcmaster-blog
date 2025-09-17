@@ -4,7 +4,8 @@ export default defineAppConfig({
   socials: {
     twitter: 'KyleMcMaster',
     github: 'KyleMcMaster',
-    mastodon: '@kylemcmaster@fosstodon.org'
+    mastodon: '@kylemcmaster@fosstodon.org',
+    bluesky: 'kylemcmaster.com'
   },
   
   // SEO and site information
