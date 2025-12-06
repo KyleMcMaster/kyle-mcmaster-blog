@@ -30,6 +30,9 @@ export default defineEventHandler(async (event) => {
     .find()
 
   for (const post of posts) {
+    // Skip posts without a date (shouldn't happen due to query filter, but extra safety)
+    if (!post.date) continue
+
     const postUrl = `${siteUrl}${post._path}`
     
     feed.addItem({
@@ -37,7 +40,7 @@ export default defineEventHandler(async (event) => {
       id: postUrl,
       link: postUrl,
       description: post.description || '',
-      date: post.date ? new Date(post.date) : new Date(),
+      date: new Date(post.date),
       image: post.image ? `${siteUrl}${post.image}` : undefined,
       author: [
         {
