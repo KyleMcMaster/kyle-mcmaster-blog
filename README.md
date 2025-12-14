@@ -30,3 +30,7 @@ Then open [http://localhost:3000](http://localhost:3000) to see your app.
 ## Deployment
 
 Learn more how to deploy on [Nuxt docs](https://nuxt.com/docs/getting-started/deployment).
+
+## RSS Feed
+
+The blog has an RSS feed available at [https://kylemcmaster.com/rss.xml](https://kylemcmaster.com/rss.xml). This feed includes all blog posts and is auto-discoverable through the `<link rel="alternate" type="application/rss+xml">` tag in the HTML head.

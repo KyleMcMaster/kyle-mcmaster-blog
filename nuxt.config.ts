@@ -2,7 +2,8 @@ export default defineNuxtConfig({
   extends: 'content-wind',
 
   routeRules: {
-    '/': { prerender: true }
+    '/': { prerender: true },
+    '/rss.xml': { prerender: true }
   },
 
   compatibilityDate: '2024-09-02',
@@ -36,7 +37,8 @@ export default defineNuxtConfig({
         { name: 'twitter:image', content: 'https://kylemcmaster.com/cover.jpg' }
       ],
       link: [
-        { rel: 'canonical', href: 'https://kylemcmaster.com' }
+        { rel: 'canonical', href: 'https://kylemcmaster.com' },
+        { rel: 'alternate', type: 'application/rss+xml', title: 'Kyle McMaster Blog RSS Feed', href: 'https://kylemcmaster.com/rss.xml' }
       ]
     }
   },
